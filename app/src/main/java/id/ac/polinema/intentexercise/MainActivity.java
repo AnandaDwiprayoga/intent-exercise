@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
 	}
 
 	public void handleRegister(View view) {
+
+	    finishAffinity();
+
 		Intent intent = new Intent(this, RegisterActivity.class);
 		startActivity(intent);
 	}
